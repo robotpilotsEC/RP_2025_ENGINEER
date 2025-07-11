@@ -1,0 +1,12 @@
+// 等待确认
+cnt = 60000 * 3;
+core.parm_->armCmd.isAutoCtrl = false;
+core.psubgantry_->subGantryCmd.isAutoCtrl = false;
+while (cnt--) {
+	if (keyboard.key_Ctrl) {
+		if (keyboard.mouse_L) break;
+		if (keyboard.mouse_R) goto proc_exit;
+	}
+	proc_waitMs(1);
+}
+if (cnt == 0) goto proc_exit;
