@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "Middlewares/FreeRTOS-Kernel/portable",
+		"source" : "Middlewares/FreeRTOS-Kernel/portable"
+	}
+}

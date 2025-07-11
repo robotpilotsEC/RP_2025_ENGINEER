@@ -1,0 +1,221 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						3,
+						4,
+						5
+					],
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "Drivers/CMSIS/DSP",
+					"childIndexes" : 
+					[
+						2
+					],
+					"jsonFile" : "directory-Drivers.CMSIS.DSP-Debug-956f13c6b15e1564be5d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "Drivers/CMSIS/DSP"
+				},
+				{
+					"build" : "Drivers/CMSIS/DSP/Source",
+					"jsonFile" : "directory-Drivers.CMSIS.DSP.Source-Debug-bddb7032e215c0ab2590.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "Drivers/CMSIS/DSP/Source",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "Drivers/stm32h7xx-hal-driver",
+					"jsonFile" : "directory-Drivers.stm32h7xx-hal-driver-Debug-13048c1770e246c6c27d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "Drivers/stm32h7xx-hal-driver",
+					"targetIndexes" : 
+					[
+						5
+					]
+				},
+				{
+					"build" : "Drivers/BMI08x_SensorAPI",
+					"jsonFile" : "directory-Drivers.BMI08x_SensorAPI-Debug-ed1eea0336803131a597.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "Drivers/BMI08x_SensorAPI",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "Middlewares/FreeRTOS-Kernel",
+					"childIndexes" : 
+					[
+						6
+					],
+					"jsonFile" : "directory-Middlewares.FreeRTOS-Kernel-Debug-400f473dc180eec0cdc4.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "Middlewares/FreeRTOS-Kernel",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"build" : "Middlewares/FreeRTOS-Kernel/portable",
+					"jsonFile" : "directory-Middlewares.FreeRTOS-Kernel.portable-Debug-21a87aa15752606428d8.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 0,
+					"source" : "Middlewares/FreeRTOS-Kernel/portable",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						3,
+						4,
+						5,
+						6
+					],
+					"name" : "RM25-Engineer-Template",
+					"targetIndexes" : 
+					[
+						0,
+						2,
+						3,
+						4,
+						5
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "CMSISDSP",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 4,
+					"id" : "BMI08x_SensorAPI::@a13f88f7bb6fe60605b2",
+					"jsonFile" : "target-BMI08x_SensorAPI-Debug-b2b78a59fff345fd6140.json",
+					"name" : "BMI08x_SensorAPI",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "CMSISDSP::@b9d5bb0b56e96cb34529",
+					"jsonFile" : "target-CMSISDSP-Debug-43ae212fca1dabe999f1.json",
+					"name" : "CMSISDSP",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "FIRMWARE.elf::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-FIRMWARE.elf-Debug-e6f06dcbadc4fccfbaa9.json",
+					"name" : "FIRMWARE.elf",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "freertos_kernel::@019c93f9d76dff0c85cb",
+					"jsonFile" : "target-freertos_kernel-Debug-f3242b100ded45c44df5.json",
+					"name" : "freertos_kernel",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "freertos_kernel_port::@e746dde39b1b3dd63869",
+					"jsonFile" : "target-freertos_kernel_port-Debug-64ce13ccf12926739924.json",
+					"name" : "freertos_kernel_port",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "stm32h7xx_hal_driver::@e2477c31fd7e9c1b8b94",
+					"jsonFile" : "target-stm32h7xx_hal_driver-Debug-4a5f53d1b3122991633b.json",
+					"name" : "stm32h7xx_hal_driver",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/1_EE_Docs/RP_Engineer_robot/RM25_ENGINEER_V3/Robot/build",
+		"source" : "D:/1_EE_Docs/RP_Engineer_robot/RM25_ENGINEER_V3/Robot"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

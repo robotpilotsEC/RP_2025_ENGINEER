@@ -1,0 +1,275 @@
+{
+	"archive" : {},
+	"artifacts" : 
+	[
+		{
+			"path" : "Drivers/BMI08x_SensorAPI/libBMI08x_SensorAPI.a"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"add_compile_options",
+			"add_definitions",
+			"include",
+			"include_directories",
+			"target_include_directories"
+		],
+		"files" : 
+		[
+			"Drivers/BMI08x_SensorAPI/CMakeLists.txt",
+			"CMakeLists.txt",
+			"Targets/DM-MC02 - keil/target.cmake",
+			"Drivers/CMSIS/CMSIS.cmake",
+			"Drivers/Drivers.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 7,
+				"parent" : 0
+			},
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 58,
+				"parent" : 2
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 75,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 83,
+				"parent" : 2
+			},
+			{
+				"file" : 2,
+				"parent" : 5
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 4,
+				"parent" : 6
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 7,
+				"parent" : 6
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 100,
+				"parent" : 2
+			},
+			{
+				"file" : 4,
+				"parent" : 9
+			},
+			{
+				"command" : 3,
+				"file" : 4,
+				"line" : 2,
+				"parent" : 10
+			},
+			{
+				"file" : 3,
+				"parent" : 11
+			},
+			{
+				"command" : 4,
+				"file" : 3,
+				"line" : 1,
+				"parent" : 12
+			},
+			{
+				"command" : 4,
+				"file" : 3,
+				"line" : 2,
+				"parent" : 12
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 14,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-O3 -DNDEBUG -std=gnu11"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Ofast"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-mcpu=cortex-m7"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-mthumb"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-mfpu=fpv5-d16"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-mfloat-abi=hard"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-Wall"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-Wno-packed-bitfield-compat"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-fdata-sections"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-ffunction-sections"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-O3"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 7,
+					"define" : "STM32H723xx"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "USE_HAL_DRIVER"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 8,
+					"path" : "D:/1_EE_Docs/RP_Engineer_robot/RM25_ENGINEER_V1/RM25_ENGINEER_V1.1/BOARD_2/Targets/DM-MC02 - keil/BSP"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "D:/1_EE_Docs/RP_Engineer_robot/RM25_ENGINEER_V1/RM25_ENGINEER_V1.1/BOARD_2/Targets/DM-MC02 - keil/Core/Inc"
+				},
+				{
+					"backtrace" : 13,
+					"path" : "D:/1_EE_Docs/RP_Engineer_robot/RM25_ENGINEER_V1/RM25_ENGINEER_V1.1/BOARD_2/Drivers/CMSIS/Include"
+				},
+				{
+					"backtrace" : 14,
+					"path" : "D:/1_EE_Docs/RP_Engineer_robot/RM25_ENGINEER_V1/RM25_ENGINEER_V1.1/BOARD_2/Drivers/CMSIS/Device/ST/STM32H7xx/Include"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "D:/1_EE_Docs/RP_Engineer_robot/RM25_ENGINEER_V1/RM25_ENGINEER_V1.1/BOARD_2/Drivers/BMI08x_SensorAPI"
+				}
+			],
+			"language" : "C",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					1
+				],
+				"standard" : "11"
+			},
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4
+			]
+		}
+	],
+	"id" : "BMI08x_SensorAPI::@a13f88f7bb6fe60605b2",
+	"name" : "BMI08x_SensorAPI",
+	"nameOnDisk" : "libBMI08x_SensorAPI.a",
+	"paths" : 
+	{
+		"build" : "Drivers/BMI08x_SensorAPI",
+		"source" : "Drivers/BMI08x_SensorAPI"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Drivers/BMI08x_SensorAPI/bmi08a.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Drivers/BMI08x_SensorAPI/bmi08g.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Drivers/BMI08x_SensorAPI/bmi08xa.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Drivers/BMI08x_SensorAPI/bmi088_anymotiona.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Drivers/BMI08x_SensorAPI/bmi088_mma.c",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "STATIC_LIBRARY"
+}

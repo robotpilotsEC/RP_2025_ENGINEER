@@ -1,0 +1,59 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "shell",
+			"label": "Cmake",
+			"command": "cmake",
+			"args": [
+				".."
+			],
+			"options": {
+				"cwd": "${workspaceFolder}/build"
+			},
+			"presentation": {
+				"echo": true,
+				"reveal": "always",
+				"focus": false,
+				"panel": "shared",
+				"showReuseMessage": true,
+				"clear": true
+			},
+			"problemMatcher": [
+				"$msCompile"
+			]
+		},
+		{
+			"type": "shell",
+			"label": "Ninja build",
+			"command": "Ninja",
+			"options": {
+				"cwd": "${workspaceFolder}/build"
+			},
+			"args": [
+				"-j",
+				"12"
+			],
+		},
+		{
+			"label":"mkdir",
+			"type": "shell",
+			"options": {
+				"cwd": "${workspaceFolder}"
+			},
+			"command": "if (-Not (Test-Path build)) { mkdir build }",
+		},
+		{
+			"label": "Build",
+			"dependsOrder": "sequence",
+			"dependsOn": [
+				//"mkdir",
+				"Cmake",
+				"Ninja build"
+			],
+			"problemMatcher": [
+				"$msCompile"
+			]
+		}
+	]
+}
