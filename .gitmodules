@@ -1,5 +1,5 @@
-[submodule "ROBOT"]
-	path = ROBOT
+[submodule "Robot"]
+	path = Robot
 	url = https://github.com/robotpilotsEC/RP_2025_ENGINEER_ROBOT.git
 [submodule "Custom_Controller"]
 	path = Custom_Controller
